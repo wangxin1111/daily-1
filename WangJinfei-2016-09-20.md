@@ -141,4 +141,3 @@ if(pet instanceof Dog ){
 此时dog1类是一个新的类，与传入的dog类不同，
   
 Dog dog1 =(Dog) pet;  即可
-
