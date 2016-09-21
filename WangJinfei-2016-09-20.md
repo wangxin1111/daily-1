@@ -8,6 +8,7 @@ instanceof运算符
 实现与宠物玩耍功能：
 
 （1）Dog类
+
 package text2;
 
 public class Dog extends Pet{
@@ -35,6 +36,7 @@ public class Dog extends Pet{
 }
 
 （2）Penguin类
+
 package text2;
 
 public class Penguin extends Pet {
@@ -62,6 +64,7 @@ public class Penguin extends Pet {
 }
 
 （3）Person类
+
 package text2;
 
 public class Person {
@@ -80,6 +83,7 @@ public class Person {
 }
 
 （4）PetMain类
+
 package text2;
 
 import java.util.Scanner;
