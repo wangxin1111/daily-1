@@ -126,15 +126,15 @@
 	无
 5. 遇到的问题及解决方案
 
-	if(pet instanceof Dog ){
-		Dog dog1 = new Dog();
-		//dog1 = (Dog) pet;
-		dog1.catchingFlyDisc();
-	}
-	else{
-		Penguin penguin = (Penguin) pet;
-		penguin.swimming();
-	}
+		if(pet instanceof Dog ){
+				Dog dog1 = new Dog();
+				//dog1 = (Dog) pet;
+				dog1.catchingFlyDisc();
+			}
+			else{
+				Penguin penguin = (Penguin) pet;
+				penguin.swimming();
+			}
 	
 	此时dog1类是一个新的类，与传入的dog类不同，
 	  
