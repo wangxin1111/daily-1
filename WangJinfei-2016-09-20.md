@@ -2,8 +2,11 @@
 ======================
 
 1. 已完成的工作内容
+
 instanceof运算符
+
 实现与宠物玩耍功能：
+
 （1）Dog类
 package text2;
 
@@ -30,6 +33,7 @@ public class Dog extends Pet{
 		System.out.print("我的名字是"+name+",我的健康值是"+health+",我与主人的亲密度是 "+intimacy);
 	}
 }
+
 （2）Penguin类
 package text2;
 
@@ -56,6 +60,7 @@ public class Penguin extends Pet {
 		System.out.print("我的名字是"+name+",我的健康值是"+health+",我与主人的亲密度是 "+intimacy);
 	}
 }
+
 （3）Person类
 package text2;
 
@@ -73,6 +78,7 @@ public class Person {
 		}		
 	}
 }
+
 （4）PetMain类
 package text2;
 
@@ -101,13 +107,23 @@ public class PetMain {
         }
 	}
 }
+
 2. 工作成果
+
 运行结果：
+![001](images/001.jpg)
+
+
 3. 未完成工作
+
 无
+
 4. 未完成原因
+
 无
+
 5. 遇到的问题及解决方案
+
 if(pet instanceof Dog ){
 			Dog dog1 = new Dog();
 			//dog1 = (Dog) pet;
