@@ -34,8 +34,11 @@
      索引范围为从 0 到 length() - 1。序列的第一个 char 值位于索引 0 处，第二个位于索引 1 处，
      依此类推，这类似于数组索引。
      */
+     
         c1 = s.charAt(2);
+	
         System.out.println("c1 = " + c1);
+	
 
     /*
     codePointAt(int index)
