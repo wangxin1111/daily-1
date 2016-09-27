@@ -44,22 +44,31 @@
     codePointAt(int index)
     返回指定索引处的字符（Unicode 代码点）。
     */
+    
         i1 = s.codePointAt(2);
+	
         System.out.println("i1 = " + i1);
+	
 
     /*
     codePointBefore(int index)
     返回指定索引之前的字符（Unicode 代码点）。
     */
+    
         i2 = s.codePointBefore(2);
+	
         System.out.println("i2 = " + i2);
+	
 
     /*
     codePointCount(int beginIndex, int endIndex)
     返回此 String 的指定文本范围中的 Unicode 代码点数。
     */
+    
         i3 = s.codePointCount(0, 7);
+	
         System.out.println("i3 = " + i3);
+	
 
     /*
     public int compareTo(String anotherString)
@@ -78,13 +87,20 @@
      在这种情况下，compareTo 返回这两个字符串长度的差，即值：
      this.length()-anotherString.length()
      */
+     
         i4 = s.compareTo("abcdefg");
+	
         i5 = s.compareTo("abcd");
+	
         i6 = s.compareTo("aBcdefg");
+	
 
         System.out.println("i4 = " + i4);
+	
         System.out.println("i5 = " + i5);
+	
         System.out.println("i6 = " + i6);
+	
 
     /*
     public int compareToIgnoreCase(String str)
@@ -98,12 +114,17 @@
     返回：
     根据指定 String 大于、等于还是小于此 String（不考虑大小写），分别返回一个负整数、0 或一个正整数。
     */
+    
         i7 = s.compareToIgnoreCase("ABCDEFG");
+	
         i8 = s.compareToIgnoreCase("aBcdefg");
+	
         i9 = s.compareToIgnoreCase("AbCDEFG");
 
         System.out.println("i7 = " + i7);
+	
         System.out.println("i8 = " + i8);
+	
         System.out.println("i9 = " + i9);
 
 
@@ -118,7 +139,9 @@
         */
 
         s1 = s.concat("h");
+	
         System.out.println("s1 = " + s1);
+	
 
         /*
         public boolean contains(CharSequence s)
@@ -130,6 +153,7 @@
         */
 
         bln = s.contains("h");
+	
         System.out.println("bln = " + bln);
 
         /*
@@ -142,6 +166,7 @@
         */
 
         bln = s.contentEquals(cs);
+	
         System.out.println("bln = " + bln);
 
 
@@ -155,6 +180,7 @@
         */
 
         bln = s.contentEquals(sb);
+	
         System.out.println("bln = " + bln);
 
 
@@ -166,7 +192,9 @@
         返回：
         一个 String，它包含字符数组的字符。
         */
+	
         s2 = s.copyValueOf(ch);
+	
         System.out.println("s2 = " + s2);
 
         /*
@@ -177,7 +205,9 @@
                 offset - 子数组的初始偏移量。
                 count - 子数组的长度。
         */
+	
         s3 = s.copyValueOf(ch, 2, 4);
+	
         System.out.println("s3 = " + s3);
 
         /*
@@ -190,9 +220,13 @@
         注意，如果参数是空字符串，或者等于此 String 对象（用 equals(Object) 方法确定），
         则结果为 true。
         */
+	
         bln = s.endsWith("fg");
+	
         System.out.println("bln = " + bln);
+	
         bln = "fg".endsWith("fg");
+	
         System.out.println("bln = " + bln);
 
         /*
@@ -208,6 +242,7 @@
         */
 
         bln = s.equals("abcdefg");
+	
         System.out.println("bln = " + bln);
 
         /*
@@ -224,6 +259,7 @@
         */
 
         bln = s.equalsIgnoreCase("ABCDEFG");
+	
         System.out.println("bln = " + bln);
 
         /*
@@ -264,7 +300,9 @@
         返回：
         所得 byte 数组
         */
+	
         bt = s.getBytes();
+	
         System.out.println("bt[0] = " + bt[0]);
 
 
@@ -280,6 +318,7 @@
         */
 
         bt = s.getBytes();
+	
         System.out.println("bt[0] = " + bt[0]);
 
        /*
@@ -330,10 +369,15 @@
 
 
         s.getChars(2, 5, ch1, 2);
+	
         System.out.println("ch1[0] = " + ch1[0]);
+	
         System.out.println("ch1[1] = " + ch1[1]);
+	
         System.out.println("ch1[2] = " + ch1[2]);
+	
         System.out.println("ch1[3] = " + ch1[3]);
+	
         System.out.println("ch1[4] = " + ch1[4]);
 
         /*
@@ -345,6 +389,7 @@
         */
 
         i10 = "ab".hashCode();
+	
         System.out.println("i10 = " + i10);
 
         /*
@@ -363,6 +408,7 @@
         */
 
         i11 = s.indexOf(98);
+	
         System.out.println("i11 = " + i11);
 
         /*
@@ -386,8 +432,11 @@
         */
 
         i12 = s.indexOf(100, 1);
+	
         System.out.println("i12 = " + i12);
+	
         i12 = s.indexOf(100, 5);
+	
         System.out.println("i12 = " + i12);
 
 
@@ -403,7 +452,9 @@
         返回：
         如果字符串参数作为一个子字符串在此对象中出现，则返回第一个这种子字符串的第一个字符的索引；如果它不作为一个子字符串出现，则返回 -1。
         */
+	
         i13 = s.indexOf("de");
+	
         System.out.println("i13 = " + i13);
 
         /*
@@ -420,6 +471,7 @@
         */
 
         i14 = s.indexOf("de", 3);
+	
         System.out.println("i14 = " + i14);
 
 
@@ -439,6 +491,7 @@
         */
 
         s4 = s.intern();
+	
         System.out.println("s4 = " + s4);
 
 
@@ -451,10 +504,15 @@
         */
 
         bln = s.isEmpty();
+	
         System.out.println("bln = " + bln);
+	
         bln = "".isEmpty();
+	
         System.out.println("bln = " + bln);
+	
         bln = " ".isEmpty();
+	
         System.out.println("bln = " + bln);
 
         /*
@@ -473,6 +531,7 @@
         在此对象表示的字符序列中最后一次出现该字符的索引；如果未出现该字符，则返回 -1。*/
 
         i15 = s.lastIndexOf(99);
+	
         System.out.println("i15 = " + i15);
 
         /*
@@ -514,8 +573,11 @@
         返回：
         double 参数的字符串表示形式。
         */
+	
         d1 = 10;
+	
         s4 = String.valueOf(d1);
+	
         System.out.println("s4 = " + s4);
 
 
