@@ -11,12 +11,17 @@
         public class TestMath {
 
         public static  void main(String[] args) {
+	
         double d1 = -1;
+	
         double d2, d3, d4, d5, d6, d7, d8, d9, d10;
+	
         double d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21;
 
         int i1, i2, i3, i4;
+	
         float f1, f2, f3, f4;
+	
         long l1, l2, l3, l4, l5, l6, l7;
 
 
@@ -36,6 +41,7 @@
         */
 
         d1 = Math.abs(d1);
+	
         System.out.println("d1 = " + d1);
 
         /*
@@ -51,6 +57,7 @@
         */
 
         d2 = Math.acos(1);
+	
         System.out.println("d2 = " + d2);
 
         /*
@@ -67,6 +74,7 @@
         */
 
         d3 = Math.asin(1);
+	
         System.out.println("d3 = " + d3);
 
        /*
@@ -121,6 +129,7 @@
         */
 
         d4 = Math.cbrt(8);
+	
         System.out.println("d4 = " + d4);
 
         /*
@@ -137,6 +146,7 @@
         */
 
         d5 = Math.ceil(8.5);
+	
         System.out.println("d5 = " + d5);
 
         /*
@@ -151,6 +161,7 @@
         */
 
         d6 = Math.copySign(8, -1);
+	
         System.out.println("d6 = " + d6);
 
         /*
@@ -205,6 +216,7 @@
         */
 
         d7 = Math.exp(3);
+	
         System.out.println("d7 = " + d7);
 
         /*
@@ -226,6 +238,7 @@
         */
 
         d8 = Math.expm1(3);
+	
         System.out.println("d8 = " + d8);
 
         /*
@@ -240,6 +253,7 @@
         */
 
         d9 = Math.floor(3.5);
+	
         System.out.println("d9 = " + d9);
 
         /*
@@ -254,7 +268,9 @@
         */
 
         d10 = 8;
+	
         i1 = Math.getExponent(d10);
+	
         System.out.println("i1 = " + i1);
 
         /*
@@ -269,7 +285,9 @@
         */
 
         f1 = 8;
+	
         i2 = Math.getExponent(f1);
+	
         System.out.println("i2 = " + i2);
 
         /*
@@ -289,6 +307,7 @@
         */
 
         d11 = Math.hypot(3, 4);
+	
         System.out.println("d11 = " + d11);
 
         /*
@@ -306,6 +325,7 @@
         */
 
         d12 = Math.IEEEremainder(5, 2);
+	
         System.out.println("d12 = " + d12);
 
         /*
@@ -368,6 +388,7 @@
         */
 
         d13 = Math.max(5, 2);
+	
         System.out.println("d13 = " + d13);
 
         /*  返回较小值 (int,double,float.long)
@@ -383,6 +404,7 @@
         */
 
         d14 = Math.min(5, 2);
+	
         System.out.println("d14 = " + d14);
 
         /*  (double,float)
@@ -403,6 +425,7 @@
         */
 
         d15 = Math.nextAfter(5, 2);
+	
         System.out.println("d15 = " + d15);
 
 
@@ -422,6 +445,7 @@
         */
 
         d16 = Math.nextUp(5);
+	
         System.out.println("d16 = " + d16);
 
         /*
@@ -435,6 +459,7 @@
         */
 
         d17 = Math.pow(5, 2);
+	
         System.out.println("d17 = " + d17);
 
         /*
@@ -452,6 +477,7 @@
         */
 
         d18 = Math.random();
+	
         System.out.println("d18 = " + d18);
 
         /*
@@ -481,6 +507,7 @@
         */
 
         l1 = Math.round(2.6);
+	
         System.out.println("dl1 = " + l1);
 
         /*public static int round(float a)
@@ -546,6 +573,7 @@
 
 
         d19 = Math.signum(-8);
+	
         System.out.println("d19 = " + d19);
 
         /*
@@ -592,6 +620,7 @@
         */
 
         d20 = Math.sqrt(4);
+	
         System.out.println("d20 = " + d20);
 
         /*
@@ -658,11 +687,13 @@
         */
 
         d21 = Math.ulp(4);
+	
         System.out.println("d21 = " + d21);
 
 
     }
     }
+    
     
     	    TestRandom 
           
@@ -677,8 +708,11 @@
         public static void main(String[] args) {
 
         Random rd = new Random();
+	
         int i1,i2;
+	
         double d1,d2;
+	
         boolean bln;
 
 
@@ -711,6 +745,7 @@
         */
 
         bln = rd.nextBoolean();
+	
         System.out.println("bln = "+bln);
 
         /*
@@ -752,6 +787,7 @@
         */
 
         d1 = rd.nextDouble();
+	
         System.out.println("d1 = "+d1);
 
         /*
@@ -827,6 +863,7 @@
 
 
         i1 = rd.nextInt();
+	
         System.out.println("i1 = "+i1);
 
         /*
@@ -864,6 +901,7 @@
         */
 
         i2 = rd.nextInt(35);
+	
         System.out.println("i2 = "+i2);
 
        /*
@@ -892,11 +930,6 @@
 
 
 
-
-
-
-
-
     }
 }
 
@@ -907,8 +940,11 @@
       import java.util.Arrays;
 
         /**
+	
          * Created by 王金飞 on 2016/9/27.
+	 
          */
+	 
         public class TestArrays {
 
         public static void main(String[] args) {
@@ -928,21 +964,25 @@
         */
 
         System.out.println("sort前");
+	
         for (int tmp:array) {
+	
             System.out.print(tmp+",");
+	    
         }
+	
         System.out.println("");
+	
 
         Arrays.sort(array);
 
         System.out.println("sort后");
+	
         for (int tmp:array) {
+	
             System.out.print(tmp+",");
+	    
         }
-
-
-
-
 
 
 
@@ -955,13 +995,19 @@
           
           
           /**
+	  
            * Created by 王金飞 on 2016/9/27.
+	   
            */
+	   
           public class TestSystem {
+	  
 
          public static void main(String[] args) {
+	 
 
         int [] array1={3,1,3,6};
+	
         int [] array2=new int[7];
 
         /*
@@ -1010,8 +1056,11 @@
         System.arraycopy(array1,2,array2,2,1);
 
         System.out.println("array2 = ");
+	
         for (int tmp:array2) {
+	
             System.out.print(tmp+",");
+	    
         }
 
 
